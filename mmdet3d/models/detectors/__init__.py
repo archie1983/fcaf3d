@@ -14,6 +14,7 @@ from .ssd3dnet import SSD3DNet
 from .votenet import VoteNet
 from .voxelnet import VoxelNet
 from .single_stage_sparse import SingleStageSparse3DDetector
+#from .mink_single_stage import MinkSingleStage3DDetector
 
 __all__ = [
     'Base3DDetector', 'VoxelNet', 'DynamicVoxelNet', 'MVXTwoStageDetector',
@@ -21,3 +22,5 @@ __all__ = [
     'CenterPoint', 'SSD3DNet', 'ImVoteNet', 'SingleStageMono3DDetector',
     'FCOSMono3D', 'ImVoxelNet', 'GroupFree3DNet'
 ]
+
+#, 'MinkSingleStage3DDetector'
